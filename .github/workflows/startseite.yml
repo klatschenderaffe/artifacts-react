@@ -17,3 +17,6 @@ jobs:
 
       - name: Abhängigkeiten installieren
         run: npm install
+
+      - name: React Test ausführung
+        run: npm run test
